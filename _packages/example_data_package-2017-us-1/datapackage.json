@@ -1,0 +1,16 @@
+{
+    "declare": "metatab-latest",
+    "title": "A Metatab Example Data Package",
+    "description": "An example data package, from the Metatab tutorial at https://github.com/CivicKnowledge/metatab-py/blob/master/README.rst",
+    "identifier": "e7466d89-9156-4df6-a171-3102b04ae583",
+    "name": "example_data_package-2017-us-1",
+    "dataset": "example-data-package",
+    "time": "2017",
+    "space": "US",
+    "version": "1",
+    "modified": "2020-06-14T23:04:52",
+    "issued": "2020-06-14T23:04:52",
+    "giturl": "https://github.com/Metatab/metatab-packages.git",
+    "spatialgrain": "None",
+    "resources": []
+}

@@ -1,0 +1,52 @@
+Declare,metatab-latest
+Title,A Metatab Example Data Package
+Description,"An example data package, from the Metatab tutorial at"
+Description,https://github.com/CivicKnowledge/metatab-py/blob/master/README.rst
+Identifier,e7466d89-9156-4df6-a171-3102b04ae583
+Name,example_data_package-2017-us-1
+Dataset,example-data-package
+Time,2017
+Space,US
+Version,1
+Modified,2020-06-14T23:04:52
+Issued,2020-06-14T23:04:52
+Giturl,https://github.com/Metatab/metatab-packages.git
+Spatialgrain,None
+""
+Section,Contacts,email
+Origin,example.com,
+Creator,Eric Busboom,eric@civicknowledge. com
+Wrangler,Eric Busboom,eric@civicknowledge. com
+""
+Section,Documentation,Title,Description
+Readme,,,
+Homepage,http://metatab.org,Metatab Home Page,Main Metatab home page
+Documentation,https://github.com/CivicKnowledge/metatab-py/blob/master/README.rst,Metatab Python Package README,The README in the Metatab Githup repo contains the tutorial for generating this package.
+""
+Section,Resources,Name,Description
+Datafile,data/simple-example.csv,simple-example,"Random UUIDs, integers and numbers"
+Datafile,data/df.csv,df,"Random UUIDs, integers and numbers"
+Datafile,data/df2.csv,df2,"Random UUIDs, integers and numbers, copy2"
+Datafile,data/df3.csv,df3,"Random UUIDs, integers and numbers, copy3"
+""
+Section,Schema,DataType,Description,Datatype
+Table,simple-example,,,
+Table.Column,id,integer,,
+Table.Column,uuid,string,,
+Table.Column,int,integer,,
+Table.Column,float,number,,
+Table,df,,,
+Table.Column,rand,integer,,
+Table,df2,,,
+Table.Column,rand,integer,,
+Table,df3,,,
+Table.Column,rand,integer,,
+""
+Section,Notes
+Note,None
+""
+Section,Sources,Name,Description,Hash
+Datafilesource,http://public.source.civicknowledge.com/example.com/sources/test_data.zip#test_data%2Fcsv%2Fsimple-example.csv,simple-example,"Random UUIDs, integers and numbers",23466c9c98121f4f0d9c0f9bba8f4068
+Datafilesource,file:///Users/eric/proj/data-projects/metatab-packages/example-collection/staging/example-ipynb/metadata.ipynb#df,df,"Random UUIDs, integers and numbers",97b7d74c0c7b151ad7def10aee7c6502
+Datafilesource,file:///Users/eric/proj/data-projects/metatab-packages/example-collection/staging/example-ipynb/metadata.ipynb#df2,df2,"Random UUIDs, integers and numbers, copy2",97b7d74c0c7b151ad7def10aee7c6502
+Datafilesource,file:///Users/eric/proj/data-projects/metatab-packages/example-collection/staging/example-ipynb/metadata.ipynb#df3,df3,"Random UUIDs, integers and numbers, copy3",97b7d74c0c7b151ad7def10aee7c6502
